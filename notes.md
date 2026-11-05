@@ -5,7 +5,7 @@
 - Plan the project and create the research question
 - Find a dataset to use for the project
 
-Question: How does Spotify's AI DJ (DJ X) impact overall reviews of the streaming service on the Google Play Store?
+Question: How does Spotify's AI DJ (DJ X) impact overall reviews of the streaming service on the Google Play Store? \
 Dataset Link: https://www.kaggle.com/datasets/ashishkumarak/spotify-reviews-playstore-daily-update 
 
 - The dataset has a usability rank of 10.00 on Kaggle, but I am going to check the data types, values, etc
