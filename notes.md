@@ -20,4 +20,15 @@ Dataset Link: https://www.kaggle.com/datasets/ashishkumarak/spotify-reviews-play
 3. Read the reviews and noticed some reviews don't correlate with DJ X feature (part of the noise in the data)
 4. Found the count for each rating based on the selection of reviews containing the keyword
 5. Created a bar chart to visualize the counts
-   - 1 star and 5 star ratings have the highest counts, meaning afterthoughts regarding the function are mixed
+   - 1 star and 5 star ratings have the highest counts, meaning afterthoughts regarding the function are mixed \\
+
+# November 5th, 2026
+
+- Obtain reviews prior to the release of DJ X and compare to the reviews after the function's release
+1. Create a separate dataframe of all reviews prior to the release of DJ X
+2. Calculate the means for each set of reviews
+   - Mean rating after DJ X release: 3.1146 (567 reviews containing the "DJ" keyword)
+   - Mean rating before DJ X release: 2.5046 (39,666 reviews; all reviews prior to DJ X release) \\
+
+First potential conclusion: The release of the DJ X function aided in increasing the rating of the Spotify app overall.
+Next steps: Use a statistical distribution to help confirm these results, or to find some missing considerations that are not obvious as of now.
