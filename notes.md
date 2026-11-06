@@ -4,7 +4,7 @@
 
 - Plan the project and create the research question
 - Find a dataset to use for the project
-Question: How does Spotify's AI DJ (DJ X) impact overall reviews of the streaming service on the Google Play Store? \
+Question: How does Spotify's AI DJ (DJ X) impact overall reviews of the streaming service on the Google Play Store? \\
 Dataset Link: https://www.kaggle.com/datasets/ashishkumarak/spotify-reviews-playstore-daily-update \\
 
 - The dataset has a usability rank of 10.00 on Kaggle, but I am going to check the data types, values, etc
@@ -30,5 +30,5 @@ Dataset Link: https://www.kaggle.com/datasets/ashishkumarak/spotify-reviews-play
    - Mean rating after DJ X release: 3.1146 (567 reviews containing the "DJ" keyword)
    - Mean rating before DJ X release: 2.5046 (39,666 reviews; all reviews prior to DJ X release) \\
 
-First potential conclusion: The release of the DJ X function aided in increasing the rating of the Spotify app overall. \
+First potential conclusion: The release of the DJ X function aided in increasing the rating of the Spotify app overall. \\
 Next steps: Use a statistical distribution to help confirm these results, or to find some missing considerations that are not obvious as of now. \\
