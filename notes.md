@@ -32,3 +32,18 @@ Dataset Link: https://www.kaggle.com/datasets/ashishkumarak/spotify-reviews-play
 
 First potential conclusion: The release of the DJ X function aided in increasing the rating of the Spotify app overall.
 Next steps: Use a statistical distribution to help confirm these results, or to find some missing considerations that are not obvious as of now.
+
+# November 6th, 2026
+
+- Apply statistical distribution to the data to validate previous results
+1. Decision: I am going to use Welch's t-test because the aim of this statistical test is to determine whether the difference between the two independent groups' means with different variances is statistically significant.
+2. H0: µa = µb; a represents the set of reviews prior to the release of DJ X, b represents the set of reviews after the release of DJ X containing the keyword "DJ"
+3. H1: µa ≠ µb
+4. α = .05
+5. Variance of a: 2.1042
+6. Variance of b: 2.3773
+7. T-statistic value of -9.3627 -> µa < µb
+8. P-value of 1.6908e-19 < .05 -> the difference in mean ratings is statistically significant
+9. Cohen's D effect size: .3957 to .4206 (range of dividing the difference of the means over the standard deviation for each group) -> the statistically significant difference in mean ratings is small to medium
+
+Next steps: Determine whether or not its the DJ X function that specifically effected Spotify's ratings in this particular manner. MAYBE look into reviews after the release of DJ X that don't directly comment about it.
