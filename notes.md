@@ -47,3 +47,15 @@ Next steps: Use a statistical distribution to help confirm these results, or to 
 9. Cohen's D effect size: .3957 to .4206 (range of dividing the difference of the means over the standard deviation for each group) -> the statistically significant difference in mean ratings is small to medium
 
 Next steps: Determine whether or not its the DJ X function that specifically effected Spotify's ratings in this particular manner. MAYBE look into reviews after the release of DJ X that don't directly comment about it.
+
+# November 7th, 2026
+
+- Changing focus to look into the specific language used in reviews that communicate satisfaction/dissatisfaction with DJ X function (uppercase words)
+- Prediction: Dissatisfied reviews will have a higher likelihood of containing fully uppercase words
+1. Grouping reviews into two categories: 305 dissatisfied (1-3 score, including 3 because mixed reviews still include a good level of negatives regarding something) and 262 satisfied (4-5 score, reviews that have little to no dissatisfaction)
+2. Creating a function that finds all reviews that contain at least one word that is 3 characters or more and is all uppercase (some error with "I'm" for instance)
+3. Applying the function to both groups
+4. Calculating percentage of ratings containing uppercase words in both groups -> 26.89% in dissatisfied, 27.86% in satisfied
+5. Explored if the minimum character limit was 4 characters instead of 3 -> 16.39% in dissatisfied, 10.69% in satisfied
+
+Conclusion: Depending on how much noise is contained in each test, the percent difference in uppercase words in reviews was not as large as I initially expected. This could be due to the fact that uppercase words can both express feelings of dissapointment or anger, to excitement.
