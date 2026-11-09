@@ -72,5 +72,3 @@ Conclusion: Depending on how much noise is contained in each test, the percent d
 1. Creating a function that cleans a string by making the whole thing lowercase, removing punctuation, creating an empty string that will contain each word individually, and adding those words in accordingly
 2. Applying the function to both groups and analyzing value counts
 3. Noticing words that are insignificant to this test -> removing them from the value counts ("dj", "app", "songs", "music", "spotify", "song", "ai")
-
-Next steps: Create a report, analyze my findings, and conclude what could be done in the future to further look into this topic.
