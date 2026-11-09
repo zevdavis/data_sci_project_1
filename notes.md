@@ -59,3 +59,18 @@ Next steps: Determine whether or not its the DJ X function that specifically eff
 5. Explored if the minimum character limit was 4 characters instead of 3 -> 16.39% in dissatisfied, 10.69% in satisfied
 
 Conclusion: Depending on how much noise is contained in each test, the percent difference in uppercase words in reviews was not as large as I initially expected. This could be due to the fact that uppercase words can both express feelings of dissapointment or anger, to excitement.
+
+# November 8th, 2026
+
+- Detect emoji usage in reviews
+1. Creating a function that detects whether or not a review contains at least one emoji
+2. Applying the function to both groups
+3. Percentage of ratings containing emojis: 8.20% in dissatisfied, 15.27% in satisfied
+4. Finding the frequency of emojis in each group: 😒 and 🙄 3 times in dissatisfied, ❤️ 8 times in satisfied
+
+- Next step: examining words commonly utilized in the reviews that are satisfied/dissatisfied with the DJ function
+1. Creating a function that cleans a string by making the whole thing lowercase, removing punctuation, creating an empty string that will contain each word individually, and adding those words in accordingly
+2. Applying the function to both groups and analyzing value counts
+3. Noticing words that are insignificant to this test -> removing them from the value counts ("dj", "app", "songs", "music", "spotify", "song", "ai")
+
+Next steps: Create a report, analyze my findings, and conclude what could be done in the future to further look into this topic.
