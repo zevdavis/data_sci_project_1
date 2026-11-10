@@ -1,6 +1,6 @@
-## Project Notes
+# Project Notes
 
-# November 4th, 2026
+## November 4th, 2026
 
 - Plan the project and create the research question
 - Find a dataset to use for the project
@@ -22,7 +22,7 @@ Dataset Link: https://www.kaggle.com/datasets/ashishkumarak/spotify-reviews-play
 5. Created a bar chart to visualize the counts
    - 1 star and 5 star ratings have the highest counts, meaning afterthoughts regarding the function are mixed
 
-# November 5th, 2026
+## November 5th, 2026
 
 - Obtain reviews prior to the release of DJ X and compare to the reviews after the function's release
 1. Create a separate dataframe of all reviews prior to the release of DJ X
@@ -33,7 +33,7 @@ Dataset Link: https://www.kaggle.com/datasets/ashishkumarak/spotify-reviews-play
 First potential conclusion: The release of the DJ X function aided in increasing the rating of the Spotify app overall.
 Next steps: Use a statistical distribution to help confirm these results, or to find some missing considerations that are not obvious as of now.
 
-# November 6th, 2026
+## November 6th, 2026
 
 - Apply statistical distribution to the data to validate previous results
 1. Decision: I am going to use Welch's t-test because the aim of this statistical test is to determine whether the difference between the two independent groups' means with different variances is statistically significant.
@@ -48,7 +48,7 @@ Next steps: Use a statistical distribution to help confirm these results, or to 
 
 Next steps: Determine whether or not its the DJ X function that specifically effected Spotify's ratings in this particular manner. MAYBE look into reviews after the release of DJ X that don't directly comment about it.
 
-# November 7th, 2026
+## November 7th, 2026
 
 - Changing focus to look into the specific language used in reviews that communicate satisfaction/dissatisfaction with DJ X function (uppercase words)
 - Prediction: Dissatisfied reviews will have a higher likelihood of containing fully uppercase words
@@ -60,7 +60,7 @@ Next steps: Determine whether or not its the DJ X function that specifically eff
 
 Conclusion: Depending on how much noise is contained in each test, the percent difference in uppercase words in reviews was not as large as I initially expected. This could be due to the fact that uppercase words can both express feelings of dissapointment or anger, to excitement.
 
-# November 8th, 2026
+## November 8th, 2026
 
 - Detect emoji usage in reviews
 1. Creating a function that detects whether or not a review contains at least one emoji
@@ -72,3 +72,10 @@ Conclusion: Depending on how much noise is contained in each test, the percent d
 1. Creating a function that cleans a string by making the whole thing lowercase, removing punctuation, creating an empty string that will contain each word individually, and adding those words in accordingly
 2. Applying the function to both groups and analyzing value counts
 3. Noticing words that are insignificant to this test -> removing them from the value counts ("dj", "app", "songs", "music", "spotify", "song", "ai")
+
+## November 10th, 2026
+
+- Analyze dates at which reviews changed when it comes to the release of DJ X
+1. Convert data type of "at" column to datetime
+2. Group review counts by month, quarter, and year; notice a big jump in reviews from 2K in 2023 Q3 to 11K 2023 Q4
+3. Check the same thing for the dataframe containing all reviews with mention of DJ X
