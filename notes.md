@@ -79,3 +79,9 @@ Conclusion: Depending on how much noise is contained in each test, the percent d
 1. Convert data type of "at" column to datetime
 2. Group review counts by month, quarter, and year; notice a big jump in reviews from 2K in 2023 Q3 to 11K 2023 Q4
 3. Check the same thing for the dataframe containing all reviews with mention of DJ X
+
+## November 11th, 2026
+
+- Looking at the average rating given per month, quarter, or year (depending on what is the best option)
+- Prediction: I believe we will see an immediate rise in the average rating a month or two following the release of DJ X.
+1. Creating a scatterplot visualization to understand how mean score rating changes each quarter; some decreases after the DJ X release (why?)
